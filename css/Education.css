@@ -1,0 +1,15 @@
+#detailContent ul{
+	overflow: hidden;
+	margin-left: 10px;	
+}
+#detailContent li{
+	float: left;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+	margin-right: 40px;
+	font-size: 12px;
+	color: #4F608C;
+}
+#detailContent li i{
+	margin-left: 45px;
+}

@@ -1,0 +1,82 @@
+#head{
+	position: relative;
+	overflow: hidden;
+}
+#ContentColor{
+	background: #5C307D;
+	opacity: 0.8;
+	position: absolute;
+	bottom: 0;
+	right: 116px;
+	width: 35%;
+	height: 80%;	
+}
+#headContent{
+	text-align: center;
+	width: 35%;
+	padding: 21px;
+	position: absolute;
+	bottom: -8px;
+	right: 116px;
+	border-bottom: 8px solid #E0823D;
+}
+#headContent p{
+	color: white;
+}
+#headContent a{
+	color: white;
+}
+#headContent a:hover{
+	color: yellow;
+}
+/*头部结束
+..........................*/
+
+
+#detailTitle{
+	color: #5C307D;
+	font-size: 26px;
+    padding-top: 36px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 1px solid #ddd;
+}
+#detailContent{
+	overflow: auto;
+}
+#detailContent .col-md-4{
+	margin-bottom: 40px;
+}
+
+#detailLink {
+	color: #22132d;
+	font-size: 16px;
+	padding: 19px 0 12px 50px; /*上 右 下 左*/
+    display: block;
+
+}
+#detailContent p{
+	color: #777;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 50px 0 50px;
+}
+/*详细介绍部分结束
+..........................*/
+
+@media only screen and (max-width: 600px) {
+	#ContentColor{
+		width: 90%;
+		height: 45%;
+		right: 26px;
+	}
+	#headContent{
+		width: 90%;
+		height: 45%;
+		right: 26px;
+	}
+	#xs-didden{
+		display: none;
+	}
+}

@@ -1,0 +1,66 @@
+#EduTab{
+	border-left: 12px solid #5C307D;
+}
+#EduTab .navbar-collapse{
+	padding: 0;
+}
+#EduTab h3{
+	background: #5C307D;
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 48px;
+	padding: 0 22px;
+	margin: -19px 0px 0px 0px;
+}
+#EduTab ul{
+	border-top: 1px solid #DDDDDD;
+}
+#EduTab li{
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 15px;
+	line-height: 49px;
+	color: #22132D;
+	margin-left: -40px;
+}
+#underEdu{
+	border-left: 4px solid #FF9600;
+	/*position: relative;
+    left: -4px;	*/
+}
+#EduTab li a{
+	color: #22132D;
+	margin-left: 28px;
+}
+#EduTab li a:hover{
+	color: #4F608C;
+}
+.sub-menu { 
+	display: none; 
+}
+#EduTab .glyphicon{
+    color: #5C307D;
+    border-left: 2px solid #DDDDDD;
+    padding: 18px 0 17px 20px;
+}
+
+
+#IntroContent .col-sm-6{
+	margin-bottom: 30px;
+}
+#IntroContent .col-sm-6 a{
+	padding: 0px 30px 0px 30px;
+    margin-top: 18px;
+    display: block;
+    color: black;
+    font-size: 16px;
+}
+#IntroContent .col-sm-6 a:hover{
+	color: #4F608C;
+}
+#IntroContent .col-sm-6 p{
+	margin: 9px 0;
+    padding: 0 30px;
+    text-indent: 0;
+    color: #4F608C;
+    font-size: 12px;
+}
